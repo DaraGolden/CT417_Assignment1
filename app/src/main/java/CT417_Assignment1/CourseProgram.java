@@ -53,6 +53,9 @@ public class CourseProgram {
     public void addStudents(ArrayList<Student> students) {
         this.students.addAll(students);
     }
+    public void addStudent(Student student) {
+        this.students.add(student);
+    }
 
     
     //Start Date Getter and Setter
