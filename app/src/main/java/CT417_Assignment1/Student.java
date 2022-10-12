@@ -33,7 +33,7 @@ public class Student {
     }
 
     public String getUsername() {
-        this.username = this.name + this.age;
+        this.username = this.name.replaceAll("\\s", "") + this.age;
         return username;
     }
 

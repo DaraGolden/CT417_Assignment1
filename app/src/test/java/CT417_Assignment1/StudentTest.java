@@ -84,7 +84,7 @@ public class StudentTest {
     public void testGetUsername() {
         System.out.println("getUsername");
         
-        String expResult = "Dara Golden22";
+        String expResult = "DaraGolden22";
         String result = exampleStudent.getUsername();
         assertEquals(expResult, result);
     }
