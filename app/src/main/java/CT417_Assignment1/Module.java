@@ -40,6 +40,9 @@ public class Module {
     public void addStudents(ArrayList<Student> students) {
         this.students.addAll(students);
     }
+    public void addStudent(Student student) {
+        this.students.add(student);
+    }
 
     //Courses Getter and Setter
     public ArrayList<CourseProgram> getCourses() {

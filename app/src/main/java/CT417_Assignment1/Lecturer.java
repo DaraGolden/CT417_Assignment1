@@ -37,9 +37,11 @@ public class Lecturer {
     public ArrayList<Module> getModules() {
         return modules;
     }
-
     public void addModules(ArrayList<Module> modules) {
         this.modules.addAll(modules);
+    }
+    public void addModule(Module module) {
+        this.modules.add(module);
     }
     
     public void removeModules(ArrayList<Module> modules){

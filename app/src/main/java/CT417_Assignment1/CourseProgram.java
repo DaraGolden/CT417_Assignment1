@@ -41,7 +41,9 @@ public class CourseProgram {
     public void addModules(ArrayList<Module> modules) {
         this.modules.addAll(modules);
     }
-
+    public void addModule(Module module) {
+        this.modules.add(module);
+    }
     
     
     //Student Getter and Adder

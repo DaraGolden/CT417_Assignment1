@@ -52,7 +52,6 @@ public class Student {
     public void addModules(ArrayList<Module> modules) {
         this.modules.addAll(modules);
     }
-    
     public void removeModules(ArrayList<Module> modules){
         modules.forEach(module -> {
             this.modules.remove(module);
